@@ -8,10 +8,6 @@
     src: url(./fonts/Poppins-Regular.ttf);
 }
 
-@font-face {
-    font-family: Montserrat;
-    src: url(./fonts/Montserrat-Medium.ttf);
-}
 
 body {
     background: rgb(243, 158, 132);
