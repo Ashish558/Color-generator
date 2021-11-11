@@ -140,6 +140,7 @@ form .btn:hover .btn-text::before {
 .color-range {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .color-range .color {
