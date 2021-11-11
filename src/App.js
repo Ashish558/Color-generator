@@ -33,6 +33,7 @@ const App = () => {
             <form className='search-form' onSubmit={handleSubmit}>
                <input type="text"
                   value={color}
+                  placeholder='#edab65 or rgba(34, 45, 67)'
                   className={"$(error ? 'error' : null)"}
                   onChange={(e) => setColor(e.target.value)} />
                <button className='btn'> <div className='btn-text'>Generate</div> </button>
