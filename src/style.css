@@ -54,12 +54,15 @@ header .content {
 }
 
 header .content h4 {
+    padding: 0 0.3rem;
+    margin-bottom: 1rem;
     text-align: center;
     color: rgb(42, 56, 28);
 }
 
 header .content p {
     text-align: center;
+     padding: 0 0.3rem;
 }
 
 /*  form  */
