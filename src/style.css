@@ -213,9 +213,18 @@ form .btn:hover .btn-text::before {
     width: 80px;
     height: 80px;
     color: white;
-    font-weight: bold;
-    -webkit-text-stroke: 0.6px black;
+    font-weight: 600;
 }
+
+
+.single-color:nth-child(-n+11) {
+    color: black;
+}
+
+.single-color:nth-child(n+12) {
+    color: white;
+}
+
 
 .error {
     background: 1px solid red;
